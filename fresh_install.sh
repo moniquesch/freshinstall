@@ -21,16 +21,16 @@ sudo gdebi rstudio-1.2.1335-amd64.deb
 
 # RStudio server v. 1.2
 sudo apt-get install gdebi-core
-wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-1.2.1335-amd64.deb
-sudo gdebi rstudio-server-1.2.1335-amd64.deb
+wget https://download2.rstudio.org/server/xenial/amd64/rstudio-server-1.4.1717-amd64.deb
+sudo gdebi rstudio-server-1.4.1717-amd64.deb
 
 # Chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 # Anaconda
-wget https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
-bash Anaconda3-2019.03-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh
+bash Anaconda3-2020.02-Linux-x86_64.sh
 
 # Diversos (Spotify, Gimp, Inkscape)
 sudo snap install spotify gimp inkscape
